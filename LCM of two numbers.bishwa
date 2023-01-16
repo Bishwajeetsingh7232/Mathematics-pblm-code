@@ -1,0 +1,15 @@
+#LCM of two numbers
+a=int(input("Enter the first number :"))
+b=int(input("Enter the second number :"))
+i = 1
+while(True):
+  first=a*i
+  if(first%a==0 and first%b==0):
+    print(first)
+    break
+  i+=1
+
+
+
+
+
